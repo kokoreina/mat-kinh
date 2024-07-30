@@ -1,0 +1,37 @@
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    position: relative;
+}
+.background img{
+    max-width: 100%;
+    /* width: 100px;
+    height: 100px; */
+    height: auto;
+    display: block;
+
+}
+.models{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.models img{
+    /* position: absolute; */
+    height: auto;
+    width: 50%;
+    position: relative;
+}
+.chooseglasses{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+
+}
+.chooseglasses img{
+    background: none;
+}
